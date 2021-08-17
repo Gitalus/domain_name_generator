@@ -18,4 +18,6 @@ function domainGenerator() {
     return domains;
 }
 
-console.log(domainGenerator());
+for (const domain of domainGenerator()) {
+    console.log(domain);
+}
