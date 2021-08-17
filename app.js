@@ -1,4 +1,4 @@
 let pronoun = ['the','our', 'my', ''];
-let adj = ['great', 'big', 'small', 'amazing', 'beautiful', 'super', 'last'];
-let noun = ['jogger','racoon'];
+let adj = ['greatest', 'big', 'amazing', 'beautiful', 'super', 'last'];
+let noun = ['jogger','racoon', 'dog', 'portal'];
 let extensions = ['.com', '.net', '.cl', '.io'];
