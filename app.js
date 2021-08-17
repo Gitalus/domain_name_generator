@@ -10,14 +10,10 @@ function domainGenerator() {
         for (const adj of adjs) {
             for (const noun of nouns) {
                 for (const extension of extensions) {
-                    domains.push(`${pronoun}${adj}${noun}${extension}`)
+                    console.log(`${pronoun}${adj}${noun}${extension}`)
                 }
             }
         }
     }
-    return domains;
 }
-
-for (const domain of domainGenerator()) {
-    console.log(domain);
-}
+domainGenerator();
